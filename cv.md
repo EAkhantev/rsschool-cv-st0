@@ -7,3 +7,12 @@
 
 
 ### About myself:
+
+
+### Skills:
+- Python, Django Framework
+- Git, GitHub, GitLab
+- Docker (basic skills for implementing CI/CD in GitLab)
+- HTML, CSS, JavaScript
+- VSCode, Sublime
+- ANSYS, ABAQUS, MSC Patran (CAE software for finite element analysis)
