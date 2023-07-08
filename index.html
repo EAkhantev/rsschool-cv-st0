@@ -31,13 +31,112 @@
             <li>
                <a href="#">Languages</a>
             </li>
-
          </ul>
       </nav>
    </header>
-   <main>
-      <section></section>
-   </main>
+   <div class="main-wrapper">
+      <aside class="sidebar">
+         <img src="./img/avatar.png" alt="Photo">
+         <section id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+               <li>
+                  <a href="mailto:eahantev@gmail.com">eahantev@gmail.com</a>
+               </li>
+               <li>
+                  <a href="https://t.me/sr01085">@sr01085</a>
+               </li>
+               <li>
+                  <a href="https://github.com/EAkhantev">EAkhantev</a>
+               </li>
+            </ul>
+         </section>
+         <section id="education">
+            <h2>Education</h2>
+            <ul>
+               <li>
+                  Samara State Technical University (2009-2014)
+                  <br>
+                  Mechanical Engineering, Metallurgy and Transport Faculty
+               </li>
+            </ul>
+         </section>
+         <section id="language">
+            <h2>Languages</h2>
+            <ul>
+               <li>
+                  RUSSIAN - native
+               </li>
+               <li>
+                  ENGLISH - A2
+               </li>
+               <li>
+                  FRENCH - B2
+               </li>
+            </ul>
+         </section>
+      </aside>
+      <main class="main">
+         <h1>Evgenii Akhantev</h1>
+         <h3>Web-developer</h3>
+         <section id="about">
+            <h2>About myself</h2>
+            <p>
+               After graduating from a technical university my interest in engineering led me to working as a stress engineer in a division of one of France's leading aircraft engine manufacturers.
+               <br>
+               I became interested in programming by writing small scripts to automate routine operations and creating extensions for engineering software in Python. And one day I participated in the development of a small web application and from that moment I understood that I want to become web developer.
+               <br>
+               I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Web Developer.
+            </p>
+         </section>
+         <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+               <li>
+                  Python, Django Framework
+               </li>
+               <li>
+                  Git, GitHub, GitLab
+               </li>
+               <li>
+                  Docker (basic skills for implementing CI/CD in GitLab)
+               </li>
+               <li>
+                  HTML, CSS, JavaScript
+               </li>
+               <li>
+                  VSCode, Sublime
+               </li>
+               <li>
+                  ANSYS, ABAQUS, MSC Patran (CAE software for finite element analysis)
+               </li>
+            </ul>
+         </section>
+         <section id="code">
+            <h2>Code example</h2>
+            <pre>
+function binary_search(search_list, guess_numb){
+   let first = 0
+   let last = search_list.length - 1
+   while (first <= last) {
+      let mid = (first + last) / 2
+      let curr_value = search_list[mid]
+      if (curr_value == guess_numb) {
+         return mid
+      } else if (curr_value > guess_numb) {
+         last = mid - 1
+      } else {
+         first = mid + 1
+      }
+   }
+
+   return null
+}
+            </pre>
+         </section>
+         <section id="examples"></section>
+      </main>
+   </div>
    <footer>
       <a href=""></a>
       <div></div>

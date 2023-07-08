@@ -26,3 +26,21 @@
    color: rgb(139, 6, 6);
    text-decoration: underline;
 }
+
+.main-wrapper {
+   display: flex;
+   width: 100%;
+}
+
+.sidebar {
+   display: flex;
+   flex-direction: column;
+   width: 30%;
+   background-color: aqua;
+}
+
+.main {
+   display: flex;
+   flex-direction: column;
+}
+
