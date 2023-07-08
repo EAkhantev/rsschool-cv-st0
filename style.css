@@ -1,3 +1,28 @@
-body {
-   font-size: 18px;
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: black;
+}
+
+.header-list {
+   display: flex;
+   justify-content: space-around;
+   padding: 15px;
+   background-color: blueviolet;
+}
+
+.header-list li {
+   list-style: none;
+}
+
+.header-list li a {
+   text-decoration: none;
+   color: black;
+   transition: all 0.15s ease-in;
+}
+
+.header-list li a:hover {
+   color: rgb(139, 6, 6);
+   text-decoration: underline;
 }
