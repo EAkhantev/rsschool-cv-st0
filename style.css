@@ -39,8 +39,21 @@
    background-color: aqua;
 }
 
+.sidebar-wrapper {
+   padding: 20px;
+}
+
 .main {
    display: flex;
    flex-direction: column;
+   padding: 20px;
 }
 
+
+.footer {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: blueviolet;
+   padding: 20px;
+}
