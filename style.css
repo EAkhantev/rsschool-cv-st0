@@ -1,0 +1,151 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: black;
+   font-family: "Roboto", Arial, Helvetica, sans-serif;
+   scroll-behavior: smooth;
+}
+
+h2 {
+   margin-bottom: 10px;
+   margin-top: 30px;
+   color: #656A78;
+   /* background-color: #9AA3B8; */
+}
+
+p {
+   margin-top: 10px;
+}
+
+.main section {
+   margin-left: 30px;
+}
+
+.header-list {
+   display: flex;
+   justify-content: space-around;
+   padding: 15px;
+   background-color: #AEB5B3;
+}
+
+.header-list li {
+   list-style: none;
+}
+
+.header-list li a {
+   text-decoration: none;
+   color: black;
+   transition: all 0.15s ease-in;
+}
+
+.header-list li a:hover {
+   color: rgb(139, 6, 6);
+   text-decoration: underline;
+}
+
+.main-wrapper {
+   display: flex;
+   width: 100%;
+}
+
+.sidebar {
+   display: flex;
+   flex-direction: column;
+   width: 30%;
+   background-color: #D1D5DE;
+}
+
+.my-photo {
+   max-width: 350px;
+}
+
+.sidebar-wrapper {
+   padding: 20px;
+}
+
+.contact-item {
+   list-style: none;
+   padding-left: 25px;
+   height: 20px;
+}
+
+.contact-item a {
+   text-decoration: none;
+}
+
+.contact-item a:hover {
+   color: rgb(139, 6, 6);
+   text-decoration: underline;
+}
+
+.contact-item:not(:last-child) {
+   margin-bottom: 5px;
+} 
+
+.email {
+   background-image: url("./img/gmail.png");
+   background-size: 20px;
+   background-repeat: no-repeat;
+}
+
+.telegram {
+   background-image: url("./img/telegram.png");
+   background-size: 20px;
+   background-repeat: no-repeat;
+}
+
+.github {
+   background-image: url("./img/github.png");
+   background-size: 20px;
+   background-repeat: no-repeat;
+}
+
+.language-list li:not(:last-child) {
+   margin-bottom: 5px;
+}
+
+.main {
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+}
+
+.main-heading {
+   margin: 40px 0 20px;
+   font-size: 50px;
+}
+
+.main-jobpost {
+   margin-bottom: 150px;
+}
+
+.skill-list li:not(:last-child) {
+   margin-bottom: 5px;
+}
+
+.footer {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #9CB0B5;
+   padding: 10px;
+}
+
+@media (max-width:700px) {
+   .main-wrapper {
+      flex-direction: column;
+   }
+
+   .sidebar {
+      width: 100%;
+   }
+
+   .my-photo {
+      align-self: center;
+   }
+
+   .main-jobpost {
+      margin-bottom: 30px;
+  }
+}
