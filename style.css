@@ -3,13 +3,14 @@
    margin: 0;
    padding: 0;
    color: black;
+   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .header-list {
    display: flex;
    justify-content: space-around;
    padding: 15px;
-   background-color: blueviolet;
+   background-color: #AEB5B3;
 }
 
 .header-list li {
@@ -36,7 +37,7 @@
    display: flex;
    flex-direction: column;
    width: 30%;
-   background-color: aqua;
+   background-color: #646967;
 }
 
 .sidebar-wrapper {
@@ -49,11 +50,10 @@
    padding: 20px;
 }
 
-
 .footer {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   background-color: blueviolet;
+   background-color: #45695D;
    padding: 20px;
 }

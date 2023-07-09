@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evgenii Akhantev</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
@@ -36,7 +42,7 @@
     </header>
     <div class="main-wrapper">
       <aside class="sidebar">
-        <img src="./img/avatar.png" alt="Photo" />
+        <img src="./img/avatar.png" alt="Photo">
         <div class="sidebar-wrapper">
           <section id="contacts">
             <h2>Contacts</h2>
@@ -57,7 +63,7 @@
             <ul>
               <li>
                 Samara State Technical University (2009-2014)
-                <br />
+                <br>
                 Mechanical Engineering, Metallurgy and Transport Faculty
               </li>
             </ul>
@@ -81,13 +87,13 @@
             After graduating from a technical university my interest in
             engineering led me to working as a stress engineer in a division of
             one of France's leading aircraft engine manufacturers.
-            <br />
+            <br>
             I became interested in programming by writing small scripts to
             automate routine operations and creating extensions for engineering
             software in Python. And one day I participated in the development of
             a small web application and from that moment I understood that I
             want to become web developer.
-            <br />
+            <br>
             I believe, that my ability to learn and to gain new skills will lead
             me through this path of becoming a proficient Web Developer.
           </p>
@@ -112,7 +118,7 @@
 function binary_search(search_list, guess_numb){
    let first = 0
    let last = search_list.length - 1
-   while (first <= last) {
+   while (first &lt;= last) {
       let mid = (first + last) / 2
       let curr_value = search_list[mid]
       if (curr_value == guess_numb) {
@@ -131,17 +137,17 @@ function binary_search(search_list, guess_numb){
         </section>
         <section id="projects">
           <h2>Projects</h2>
-          <a href=""><img src="" alt="CV" /></a>
+          <a href=""><img src="" alt="CV"></a>
         </section>
       </main>
     </div>
     <footer class="footer">
       <a href="https://github.com/EAkhantev">
-        <img src="./img/github.png" alt="GitHub" width="30" />
+        <img src="./img/github.png" alt="GitHub" width="30">
       </a>
       <div>2023</div>
       <a href="">
-        <img src="./img/rs_school_js.svg" alt="RSSchool" width="60" />
+        <img src="./img/rs_school_js.svg" alt="RSSchool" width="60">
       </a>
     </footer>
   </body>
