@@ -101,6 +101,10 @@ p {
    background-repeat: no-repeat;
 }
 
+.language-list li:not(:last-child) {
+   margin-bottom: 5px;
+}
+
 .main {
    display: flex;
    flex-direction: column;
@@ -126,4 +130,22 @@ p {
    align-items: center;
    background-color: #9CB0B5;
    padding: 10px;
+}
+
+@media (max-width:700px) {
+   .main-wrapper {
+      flex-direction: column;
+   }
+
+   .sidebar {
+      width: 100%;
+   }
+
+   .my-photo {
+      align-self: center;
+   }
+
+   .main-jobpost {
+      margin-bottom: 30px;
+  }
 }
